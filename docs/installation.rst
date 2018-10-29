@@ -18,7 +18,8 @@ Unpack the zip file in a new folder on the local hard drive of the acquisition c
     :width: 150px
     :align: center
     
-If necessary, create empty ‘log’ and ‘scanProtocols’ folders manually.
+If necessary, create empty ‘log’ and ‘scanProtocols’ folders manually. To set up MaxQuant.Live, continue reading 
+`here <_main_program>`_.
 
 Publications 
 -------------
