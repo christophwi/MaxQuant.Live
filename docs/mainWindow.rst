@@ -30,6 +30,7 @@ Scan Protocol Library
 .. figure:: figures/image014.jpg
     :align: left 
 .. figure:: figures/image011.png
+    :width: 300px
     :align: right    
 Scan protocols implement various the acquisition strategies supported by our software. Every scan proto-col has a certain type (BoxCar, EasiTag…), a unique four-digit identification number and a short experiment description. All scan protocols are stored in a library. 
 In the scan protocol section of the software you can manage the library. 
@@ -37,12 +38,14 @@ In the scan protocol section of the software you can manage the library.
 New scan protocol:
 """"""""""""""""""
 .. figure:: figures/image015.png
+    :width: 300px
     :align: right
 When you click on the “New” button, the app store opens. First, select the acqui-sition method that should be used in the new scan protocol. Click on the big symbol to open the settings for the selected app (see Sec.7). A green checkmark indicates which app has been selected. Next, select a unique identification number for your scan protocol. The list in the drop-down menu excludes id numbers that are already present in the library. Finally fill in a short description of the experiment and click create. The scan protocol will be saved as file in the scan protocol folder and appear in the scan protocol library. 
 
 Edit scan protocols: 
 """"""""""""""""""""
 .. figure:: figures/image017.png
+    :width: 300px
     :align: right
 Scan protocols in the library can be edited later by clicking the “Edit” button. It is possible to change the global properties like the ID number and the short description of the scan protocol. Furthermore, it is possible to edit the specific parameters of an acquisition strategy using the respective app. 
 
