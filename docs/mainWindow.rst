@@ -9,7 +9,7 @@ Instrument
 ^^^^^^^^^
 
 .. figure:: figures/image008.jpg
-    :align: right
+    :align: left
 The instrument type can be selected here connected using the “connect instrument” button. 
 In this ver-sion, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometers are supported (Tune Version 2.9).
 
@@ -28,10 +28,11 @@ Specific log files: During the execution of a scan protocol, the log messages ar
 Scan Protocol Library  
 ^^^^^^^^^^^^^^^^^^^^^
 .. figure:: figures/image014.jpg
-    :align: right
-Scan protocols implement various the acquisition strategies supported by our software. Every scan proto-col has a certain type (BoxCar, EasiTag…), a unique four-digit identification number and a short experiment description. All scan protocols are stored in a library. 
-.. figure:: figures/image011.png
     :align: left
+Scan protocols implement various the acquisition strategies supported by our software. Every scan proto-col has a certain type (BoxCar, EasiTag…), a unique four-digit identification number and a short experiment description. All scan protocols are stored in a library. 
+
+.. figure:: figures/image011.png
+    :align: right    
 In the scan protocol section of the software you can manage the library. 
 
 New scan protocol:
