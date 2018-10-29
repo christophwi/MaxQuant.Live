@@ -28,7 +28,7 @@ Specific log files: During the execution of a scan protocol, the log messages ar
 Scan Protocol Library  
 ^^^^^^^^^^^^^^^^^^^^^
 .. figure:: figures/image014.jpg
-    :align: left
+    :align: left 
 .. figure:: figures/image011.png
     :align: right    
 Scan protocols implement various the acquisition strategies supported by our software. Every scan proto-col has a certain type (BoxCar, EasiTag…), a unique four-digit identification number and a short experiment description. All scan protocols are stored in a library. 
