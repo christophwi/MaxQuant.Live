@@ -25,10 +25,9 @@ Data acquisition Apps
 First steps
 -----------
 
-
-.. _user-docs:
-
 .. toctree::
    :maxdepth: 2
    :caption: User Documentation
+   
+   test
 
