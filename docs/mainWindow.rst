@@ -7,10 +7,12 @@ Modules
 
 Instrument 
 ^^^^^^^^^
-|pic1| The instrument type can be selected here connected using the “connect instrument” button. 
-In this ver-sion, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometers are supported (Tune Version 2.9).
-.. |pic1| image:: figures/image008.jpg
+.. image:: figures/image008.jpg
+    :align: right
+    :figwidth: 300px
 
+The instrument type can be selected here connected using the “connect instrument” button. 
+In this ver-sion, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometers are supported (Tune Version 2.9).
 
 Main Module
 ^^^^^^^^^^^
