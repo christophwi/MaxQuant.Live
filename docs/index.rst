@@ -1,6 +1,10 @@
 MaxQuant.Live: Documentation
 =======================================
 
+.. figure:: figure/image001.png
+   :scale: 50 %
+   :alt: map to buried treasure
+   
 `MaxQuant.Live`_ is a software framework for real-time monitoring of mass spectrometric data and controlling of the data acquisition.
 
 Installation and Versions 
