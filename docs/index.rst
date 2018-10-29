@@ -33,5 +33,5 @@ First steps
    :maxdepth: 2
    :caption: User Documentation
    
-   test
+   installation
 
