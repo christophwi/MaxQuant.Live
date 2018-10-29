@@ -34,4 +34,5 @@ First steps
    :caption: User Documentation
    
    installation
+   mainWindow
 
