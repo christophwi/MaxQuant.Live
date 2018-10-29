@@ -20,3 +20,15 @@ Data acquisition Apps
     in almost every human and computer language.
 
 .. _MaxQuant.Live: http://maxquant.live
+
+
+First steps
+-----------
+
+
+.. _user-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: User Documentation
+
