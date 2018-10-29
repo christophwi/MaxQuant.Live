@@ -2,7 +2,7 @@ MaxQuant.Live: Documentation
 =======================================
 
 .. figure:: figures/image001.png
-   :scale: 50 %
+   :width: 100px
    :alt: MaxQuant.Live logo
    
 `MaxQuant.Live`_ is a software framework for real-time monitoring of mass spectrometric data and controlling of the data acquisition.
