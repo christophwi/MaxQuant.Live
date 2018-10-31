@@ -1,12 +1,9 @@
-Main Window 
+MaxQuant.Live User Interface 
 ============================
 The main window of MaxQuant.Live consists of three sections, which you can open by clicking on the symbols in the main menu.
 
-Modules 
--------
-
 Instrument 
-^^^^^^^^^
+----------
 
 .. figure:: figures/image008.jpg
     :align: left
@@ -14,7 +11,8 @@ The instrument type can be selected here connected using the “connect instrume
 In this ver-sion, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometers are supported (Tune Version 2.9).
 
 Main Module
-^^^^^^^^^^^
+-----------
+
 .. figure:: figures/image010.jpg
     :align: left
 This part of the software is the link between the instrument and the scan protocol Library. 
@@ -26,7 +24,8 @@ The filename is the date itself. These files contain all the log messages that w
 Specific log files: During the execution of a scan protocol, the log messages are written to scan proto-col specific log file. The file name starts with the four-digit identification number, followed by the date and the time of execution. When the scan protocol ended, the log messages are again written into the global log file. 
 
 Scan Protocol Library  
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
+
 .. figure:: figures/image014.jpg
     :align: left 
 .. figure:: figures/image011.png
