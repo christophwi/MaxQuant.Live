@@ -2,7 +2,7 @@ MaxQuant.Live: Documentation
 =======================================
 
 .. figure:: figures/image001.png
-   :width: 100px
+   :width: 75px
    :alt: MaxQuant.Live logo
    :align: left
    
