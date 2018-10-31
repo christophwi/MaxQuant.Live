@@ -1,4 +1,5 @@
-
+Create and edit Scan Protocols
+------------------------------
 
 New scan protocol:
 """"""""""""""""""
