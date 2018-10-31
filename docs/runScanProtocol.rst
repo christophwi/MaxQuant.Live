@@ -16,13 +16,15 @@ If you switch to Tune, then you should see incoming log messages indicating that
 
 Automated startup 
 -----------------
-The startup of a scan protocol can be triggered by an incoming so-called “magic scan”. If MaxQuant.Live is in listening mode and receives Ms1 scans with the scan range m/z 909 to XXXX, then the scan protocol with Id number XXXX is loaded from the library and started immediately. This feature enables a seamless integration of MaxQuant.Live into the standard LC-MS controlled by Xcalibur, because the magic scans can be easily defined as Xcalibur method (see below). Doing this, MaxQuant.Live takes over the control directly after a ‘magic’ Xcalibur method starts. 
+The startup of a scan protocol can be triggered by an incoming so-called “magic scan”. If MaxQuant.Live is in `Listening Mode <mainWindow>`_ and receives Ms1 scans with the scan range m/z 909 to XXXX, then the scan protocol with Id number XXXX is loaded from the library and started immediately. This feature enables a seamless integration of MaxQuant.Live into the standard LC-MS controlled by Xcalibur, because the magic scans can be easily defined as Xcalibur method. 
+Doing this, MaxQuant.Live switches into `Running Mode <mainWindow>`_ and takes over the control directly after a ‘magic’ Xcalibur 
+method starts. 
 
 Xcalibur method setup
 ^^^^^^^^^^^^^^^^^^^^^
 .. figure:: figures/image025.png
-    :width: 300px
-    :align: left
+    :width: 50%
+    :align: right
     
 1. Create a new Xcalibur method via the standard method editor. Enter LC settings, Tune files, etc. as you would normally do. Please refer to the Xcalibur user manual for help. Caution: Make sure that the MS method duration is equal to your LC run time.
 2. In the MS method, create one Full MS – SIM scan with the scan range m/z 909 to MaxQuant.Live Id, for example m/z 909 to 1001 for the MaxQuant.Live scan protocol with the unique identifier 1001 created above. Set the scan runtime to an arbitrary value >1 min, but less than the method duration. The scan resolution should be equal to the Full Scan resolution set in the MaxQuant.Live scan protocol. 
