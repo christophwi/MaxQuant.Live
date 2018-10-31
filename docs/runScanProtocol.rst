@@ -1,11 +1,11 @@
-Running Scan protocols
-======================
+Run Scan protocols
+----------------------
 
 Once MaxQuant.Live is in the Listening Mode (Sec. 5.2) scan protocols can be started either 
 manually or in an automated manner.
 
 Manual startup
---------------
+^^^^^^^^^^^^^^
 To be able to start a scan protocol manually, the instrument has to be in Running Mode. 
 Therefore, is has to run idle or an Xcalibur method. Check, by using the control software Tune, if 
 the instrument is constantly performing scans. Only in this instrument modus can MaxQuant.Live start scan protocols. 
@@ -15,13 +15,13 @@ While a scan protocol is running, you can see its Id number in the symbol bar ri
 If you switch to Tune, then you should see incoming log messages indicating that MaxQuant.Live took over the control of the mass spectrometer. Switching back to MaxQuant.Live, the execution of the scan protocol can be terminated by clicking the “Stop scan protocol” button. MaxQuant.Live then switches back into `Listening Mode <mainWindow>`_.
 
 Automated startup 
------------------
+^^^^^^^^^^^^^^^^^
 The startup of a scan protocol can be triggered by an incoming so-called “magic scan”. If MaxQuant.Live is in `Listening Mode <mainWindow>`_ and receives Ms1 scans with the scan range m/z 909 to XXXX, then the scan protocol with Id number XXXX is loaded from the library and started immediately. This feature enables a seamless integration of MaxQuant.Live into the standard LC-MS controlled by Xcalibur, because the magic scans can be easily defined as Xcalibur method. 
 Doing this, MaxQuant.Live switches into `Running Mode <mainWindow>`_ and takes over the control directly after a ‘magic’ Xcalibur 
 method starts. 
 
 Xcalibur method setup
-^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 .. figure:: figures/image025.png
     :width: 300px
     :align: right
@@ -32,7 +32,7 @@ Xcalibur method setup
 4. Review all settings and save the method.
 
 Data acquisition
-^^^^^^^^^^^^^^^^
+""""""""""""""""
 
 1. Make sure that MaxQuant.Live is in Listening mode (Sec. 5.2). 
 2. Check if your scan protocol library is loaded and the scan protocol with ID number defined before (1001) is present in the list. The setting “Start scan protocol by magic scan” has to be true (default). 
