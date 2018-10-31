@@ -49,5 +49,5 @@ First steps
    :glob:
    :caption: Apps
    
-   appBocCar
+   appBoxCar
 
