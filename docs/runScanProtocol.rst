@@ -1,7 +1,7 @@
 Run Scan protocols
 ----------------------
 
-Once MaxQuant.Live is in the Listening Mode (Sec. 5.2) scan protocols can be started either 
+When MaxQuant.Live is in `Listening Mode <mainWindow>`_ scan protocols can be started either 
 manually or in an automated manner.
 
 Manual startup
