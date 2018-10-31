@@ -16,6 +16,7 @@ MaxQuant.Live: Documentation
    
    mainWindow   
    operationModes   
+   publications
 
 .. toctree::
    :maxdepth: 2
