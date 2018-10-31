@@ -1,4 +1,4 @@
-MaxQuant.Live User Interface 
+User Interface 
 ============================
 The main window of MaxQuant.Live consists of three sections, which you can open by clicking on the symbols in the main menu.
 
