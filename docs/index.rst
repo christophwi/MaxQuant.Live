@@ -32,4 +32,5 @@ MaxQuant.Live: Documentation
    
    appBoxCar
    appEasiTag
+   appTargeting
 
