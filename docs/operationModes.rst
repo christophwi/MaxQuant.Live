@@ -1,4 +1,4 @@
-Operating modes of MaxQuant.Live
+Operation Modes
 ================================
 
 The logo in the middle of the symbol bar of MaxQuant.Live displays the current operation mode of the software. 
