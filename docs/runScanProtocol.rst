@@ -23,7 +23,7 @@ method starts.
 Xcalibur method setup
 ^^^^^^^^^^^^^^^^^^^^^
 .. figure:: figures/image025.png
-    :width: 50%
+    :width: 300px
     :align: right
     
 1. Create a new Xcalibur method via the standard method editor. Enter LC settings, Tune files, etc. as you would normally do. Please refer to the Xcalibur user manual for help. Caution: Make sure that the MS method duration is equal to your LC run time.
