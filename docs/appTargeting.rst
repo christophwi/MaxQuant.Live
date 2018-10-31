@@ -20,24 +20,24 @@ If the set of targeting peptides is large enough, it is sufficient to only use t
 
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
 | Method parameter   | Description                                                                   |                                               |
-+-===================+===============================================================================+===============================================+
-| Id                 | Identification number used in log messages                                    | Optional                                      |
++====================+===============================================================================+===============================================+
+| Id                 | Identification number used in log messages                                    | optional                                      |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| Modified sequence  | String containing the modified sequence                                       | Optional; Needed if isotopic labeling is used |
+| Modified sequence  | String containing the modified sequence                                       | optional; Needed if isotopic labeling is used |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| Mass               | Ion mass                                                                      | Mandatory                                     |
+| Mass               | Ion mass                                                                      | mandatory                                     |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| Charge             | Ion charge state                                                              | Mandatory                                     |
+| Charge             | Ion charge state                                                              | mandatory                                     |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| Retention time     | Expected retention time (min)                                                 | Mandatory                                     |
+| Retention time     | Expected retention time (min)                                                 | mandatory                                     |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| Retention length   | Expected elution time (min)                                                   | Mandatory but can be set to 1.0               |
+| Retention length   | Expected elution time (min)                                                   | mandatory but can be set to 1.0               |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| Intensity          | Expected intensity                                                            | Mandatory but can be set to 1.0               |
+| Intensity          | Expected intensity                                                            | mandatory but can be set to 1.0               |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| Collision Energies | Collision energies for fragmentation (white space separated: 11 21            | Optional; if empty the global NCE is used     |
+| Collision Energies | Collision energies for fragmentation (white space separated: 11 21            | optional; if empty the global NCE is used     |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
-| NCE                | List of NCE scaling factor for fragmentation (white space separated: 1.2 2.3) | Optional;                                     |
+| NCE                | List of NCE scaling factor for fragmentation (white space separated: 1.2 2.3) | optional;                                     |
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
 
 
