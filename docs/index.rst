@@ -31,4 +31,5 @@ MaxQuant.Live: Documentation
    :caption: Apps
    
    appBoxCar
+   appEasiTag
 
