@@ -31,10 +31,23 @@ First steps
 
 .. toctree::
    :maxdepth: 2
-   :caption: User Documentation
+   :caption: User interface  
    
+   mainWindow   
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: Usage
+
    installation
-   mainWindow
-   usage
-   apps
+   manageScanProtocol
+   runScanProtocol
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: Apps
+   
+   appBocCar
 
