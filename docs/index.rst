@@ -35,4 +35,6 @@ First steps
    
    installation
    mainWindow
+   runScanProtocol
+   apps
 
