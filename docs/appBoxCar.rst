@@ -1,7 +1,13 @@
 BoxCar
 =====
 
-The BoxCar acquisition method for high resolution mass spectrometry-based proteomic builds on the combined acquisition of narrow m/z windows to enhance the mean ion filling time as compared to stand-ard full scans. The BoxCar acquisition method is controlled via MaxQuant.Live. All MS parameters are de-fined and saved in MaxQuant.Live scan protocols.
+The BoxCar acquisition method for high resolution mass spectrometry-based proteomic builds on the combined acquisition of narrow m/z windows to enhance the mean ion filling time as compared to stand-ard full scans.
+
+.. figure:: figures/image029.png
+    :width: 350px
+    :align: right
+    
+All MS parameters are de-fined and saved in MaxQuant.Live scan protocols.
 The pop-up window allows you to set all instrument parameters required for BoxCar runs. The acquisition cycle comprises 1 Full Scan, N BoxCar scans and Z data-dependent MS2 scans. Precursors for MS2 are se-lected from the Full Scan. Note that the mass resolution in the full scan must equal the mass resolution setting in the BoxCar scans for MaxQuant data analysis. For BoxCar scans, each box will be assigned a maximum ion injection time of 1/N th of the total, for example 10 ms for each of 10 boxes per scan with a total max. ion injection time of 100 ms. The same applies to the AGC target value. The BoxCar window placement will be automatically scaled to the expected m/z distribution of tryptic peptides.
 
 .. warning:: Choosing a too high AGC target for BoxCar scans may cause space-charge effects by overloading the Orbitrap. 
