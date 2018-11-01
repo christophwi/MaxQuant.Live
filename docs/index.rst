@@ -12,7 +12,7 @@ Publication:
    *Christoph Wichmann, Florian Meier, Sebastian Virreira Winter, Andreas-David Brunner, Juergen Cox, Matthias Mann*
    `doi: 1101/443838 <https://www.biorxiv.org/content/early/2018/10/15/443838>`_
 
-.. note:: This user documentation is not fully complete yet and frequently updated . 
+.. note:: This user documentation is not fully complete yet and is frequently updated. 
 
 .. toctree::
    :maxdepth: 2
