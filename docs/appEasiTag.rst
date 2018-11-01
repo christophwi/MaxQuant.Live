@@ -2,7 +2,7 @@ Easitag and TopN
 =================
 
 .. figure:: figures/image031.png
-    :width: 150px
+    :width: 200px
     :align: left   
     
 **EASI-tag enables accurate multiplexed and interference-free MS2-based proteome quantification**
