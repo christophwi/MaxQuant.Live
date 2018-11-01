@@ -1,10 +1,19 @@
 Targeting
 =========
+
+.. figure:: figures/image036.png
+    :width: 200px
+    :align: left   
+    
+**MaxQuant.Live enables global targeting of more than 25,000 peptides**
+*Christoph Wichmann, Florian Meier, Sebastian Virreira Winter, Andreas-David Brunner, Juergen Cox, Mat-thias Mann*
+`doi: 1101/443838 <https://www.biorxiv.org/content/early/2018/10/15/443838>`_
+
 The Targeting app allows the realization of various targeting strategies within on user interface.
 First, the list of targeting peptides has to be populated and afterward the targeting strategy has 
 to be defined and the parameters have to be set. 
 
-Quick start guide
+Steps to setup a targeting run
 -----------------
 
 1. Populate the peptide list 
