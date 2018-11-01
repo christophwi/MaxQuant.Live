@@ -59,7 +59,7 @@ Setup of targeting actions
 There are three ways to select targeting actions for peptides in the list
 1. Click on the checkbox for every peptide manually
 2. Select one or more peptides in the list, then select an action from the list of actions in the left panel and click on the check mark symbol in the middle. 
-3. Add a column with the name of the action to your peptide list in Excel and will it with the Boolean values “TRUE” or “FALSE”. When pasting the peptide in MaxQuant.Live, the software will set the checkboxes automatically. 
+3. Add a column with the name of the action to your peptide list in Excel and will it with the Boolean values ``TRUE`` or ``FALSE``. When pasting the peptide in MaxQuant.Live, the software will set the checkboxes automatically. 
 
 RealtimeCorrection 
 """"""""""""""""""
@@ -87,9 +87,97 @@ The adaptive real-time correction adjusts the expected retention times based on 
 | IsotopeTolerance         | Isotope mass tolerance [ppm]                                 | 9             |
 +--------------------------+--------------------------------------------------------------+---------------+
 
+TargetedMs2
+"""""""""""
 
++-----------------+-----------------------------------------------------------------------------+---------------+
+| Parameter       | Description                                                                 | Default value |
++=================+=============================================================================+===============+
+| BatMode         | Fragment ion in every cycle within the retention time, even if not detected | FALSE         |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| Prioritize      | Prioritize MS2 scan, if the peptide was not fragmented before               | TRUE          |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| MaxNumOfScans   | Upper limit for the number of fragmentations per peptide. 0=no limit        | 0             |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| WindowSize      | Size of the isolation window [th]                                           | 1.4           |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| CollisionEnergy | Collision energy for fragmentation                                          | 27            |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| LifeTime        | Max time span before a scheduled MS2 scan get deleted [ms]                  | 2000          |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| MaxIT           | Maximum ion injection time (ms)                                             | 28            |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| Resolution      | MS resolving power at m/z 200                                               | 15000         |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| AgcTarget       | AGC target value (charges)                                                  | 100000        |
++-----------------+-----------------------------------------------------------------------------+---------------+
+| PositiveMode    | Ion polarity                                                                | TRUE          |
++-----------------+-----------------------------------------------------------------------------+---------------+
 
+TargetLabeled
+"""""""""""""
+This action adds the SILAC label masses to the peptides masses in the list. The “Modified is used to calculate the number Arg and Lys amino acids. The masses of SILAC labels can be freely defined here.
 
+SIM (Selected Ion Monitoring)
+""""
+
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| Parameter         | Description                                                                                  | Default value |
++===================+==============================================================================================+===============+
+| WindowOffset      | Shift the isolation window centers by this offset [th]                                       | 0             |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| Isotopic label    | Masses of SILAC labels                                                                       |               |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| MaxIT             | Maximum ion injection time (ms) [not used]                                                   | 50            |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| MaxItLight /Heavy | Maximum ion injection time for light/heavy channel (ms)                                      | 100           |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| InjectTargetLight | AGC target value for light/heavy peptide (charges)                                           | 50000         |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| BatMode           | Fragment ion in every cycle within the retention time tolerance window, even if not detected | FALSE         |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| Prioritize        | Prioritize MS2 scan, if the peptide was not fragmented before                                | TRUE          |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| MaxNumOfScans     | Upper limit for the number of fragmentations per peptide. 0=no limit                         | 0             |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| WindowSize        | Size of the isolation windows [th]                                                           | 1.4           |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| CollisionEnergy   | Collision energy for fragmentation                                                           | 0             |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| LifeTime          | Max time span before a scheduled MS2 scan get deleted [ms]                                   | 1000          |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+|                   |                                                                                              |               |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| Resolution        | MS resolving power at m/z 200                                                                | 30000         |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| AgcTarget         | AGC target value (charges)                                                                   | 100000        |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+| PositiveMode      | Ion polarity                                                                                 | TRUE          |
++-------------------+----------------------------------------------------------------------------------------------+---------------+
+
+ExcludeFromTopN
+"""""""""""""""
+
++-----------------------+-----------------------------------------------------------------------------------------+---------------+
+| Parameter             | Description                                                                             | Default value |
++=======================+=========================================================================================+===============+
+| BatMode               | Exclude ion from TopN within the retention time tolerance window , even if not detected | FALSE         |
++-----------------------+-----------------------------------------------------------------------------------------+---------------+
+| StaticExclusionTime   | Time span the peptide is excluded from TopN (30)                                        | 30            |
++-----------------------+-----------------------------------------------------------------------------------------+---------------+
+| AdaptiveExclusionTime | Automatic exclusion of the peptide from TopN                                            | TRUE          |
++-----------------------+-----------------------------------------------------------------------------------------+---------------+
+
+Global Parameters
+-----------------
+
+SurveyScan
+""""""""""
+The survey scans for the peptide recognition can be either MS1 scan or BoxCar scan. The parameters are described Sec. 7.1
+
+TopN
+""""
+The TopN strategy is applied on top of the targeting scans. Note, that peptides can also be excluded from being selected a precursor by using the “ExcludeFromTopN” feature.
 
 
 
