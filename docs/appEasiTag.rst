@@ -1,13 +1,13 @@
 Easitag and TopN
 =================
 
+.. figure:: figures/image031.png
+    :width: 150px
+    :align: left   
+    
 **EASI-tag enables accurate multiplexed and interference-free MS2-based proteome quantification**
 *Sebastian Virreira Winter, Florian Meier, Christoph Wichmann, Juergen Cox, Matthias Mann & Felix Meissner*
 `doi: 10.1101/225649 <https://www.nature.com/articles/s41592-018-0037-8>`_
-
-.. figure:: figures/image031.png
-    :width: 150px
-    :align: left    
     
 The EasiTag strategy is based on the standard topN strategy but has some modifications and extensions. 
 In EasiTag, the precursor selection is more stringent and only select monoisotopic peaks for fragmentation. 
