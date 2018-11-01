@@ -34,7 +34,7 @@ Xcalibur method setup
 Data acquisition
 """"""""""""""""
 
-1. Make sure that MaxQuant.Live is in Listening mode (Sec. 5.2). 
+1. Make sure that MaxQuant.Live is in Listening mode. 
 2. Check if your scan protocol library is loaded and the scan protocol with ID number defined before (1001) is present in the list. The setting “Start scan protocol by magic scan” has to be true (default). 
 3. Open the Xcalibur software and set up a new acquisition sequence. Select the Xcalibur method generated above as the instrument method for your BoxCar runs. Note that different MaxQuant.Live protocols require different Xcalibur methods.
 4. Start the acquisition sequence. MaxQuant.Live will take over control as soon as the trigger signal (full MS scan with a scan range starting at m/z 909, ‘magic scan’) is identified. The home view will indicate that the software is now in Running Mode (Sec. 5.3). Acquisition will stop automatically at the end of the LC-MS run and the Xcalibur sequence will continue with the next run (if applicable). Stop scan protocol stops any running protocol immediately. 
