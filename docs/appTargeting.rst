@@ -50,7 +50,7 @@ If the set of targeting peptides is large enough, it is sufficient to only use t
 +--------------------+-------------------------------------------------------------------------------+-----------------------------------------------+
 
 The required information of every peptide is the mass, the expected retention time, the retention length and its charge state. Additionally the modified sequence should be provided to be able to find the peptide later in the MaxQuant.Live log file. The expected intensity completes the set of peptides properties. Note here, that the retention length is currently not taken into account and can therefore also be set to a fixed number like 1. If you don’t have intensity information of the peptides it is also possible to set the intensities to one and choose the intensity threshold of the peptide recognition algorithm to a small value. 
-The other columns contain checkboxes to enable actions called when the peptide is detected (Sec. ) 
+The other columns contain checkboxes to enable actions called when the peptide is detected.
 The peptide table can either be populated manually or filled automatically by pasting a table from the clipboard. In the latter case, a tabular calculation program like Microsoft Excel can be used to set up the peptide list. Select the rows of peptides in Excel, copy to the clipboard and click on the paste icon in MaxQuant.Live to paste into the peptide list. Make sure that the header row is also copied and that it contains the same labels as the MaxQuant.Live peptide list. Only then MaxQuant.Live can map the columns correctly. 
 
 Setup of targeting actions
@@ -173,7 +173,7 @@ Global Parameters
 
 SurveyScan
 """"""""""
-The survey scans for the peptide recognition can be either MS1 scan or BoxCar scan. The parameters are described Sec. 7.1
+The survey scans for the peptide recognition can be either MS1 scan or BoxCar scan. The parameters are described in the BoxCar section.
 
 TopN
 """"
