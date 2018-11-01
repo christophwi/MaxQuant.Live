@@ -32,4 +32,4 @@ In this case, edit the settings to check the parameters and save the scan protoc
 
 Run scan protocol
 """"""""""""""""""
-Continue reading `here <runScanProtocol>`_
+Continue reading `here <runScanProtocol.html>`_
