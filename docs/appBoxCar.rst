@@ -3,7 +3,7 @@ BoxCar
 
 .. figure:: figures/image029.png
     :width: 200px
-    :align: right
+    :align: left
 
 **BoxCar acquisition method enables single-shot proteomics at a depth of 10,000 proteins in 100 minutes**
 *Florian Meier, Philipp E. Geyer, Sebastian Virreira Winter, Juergen Cox & Matthias Mann*
