@@ -28,7 +28,7 @@ Xcalibur method setup
     
 1. Create a new Xcalibur method via the standard method editor. Enter LC settings, Tune files, etc. as you would normally do. Please refer to the Xcalibur user manual for help. Caution: Make sure that the MS method duration is equal to your LC run time.
 2. In the MS method, create one Full MS – SIM scan with the scan range m/z 909 to MaxQuant.Live Id, for example m/z 909 to 1001 for the MaxQuant.Live scan protocol with the unique identifier 1001 created above. Set the scan runtime to an arbitrary value >1 min, but less than the method duration. The scan resolution should be equal to the Full Scan resolution set in the MaxQuant.Live scan protocol. 
-3. Add a second Full MS – SIM scan as in Step 2,  but now set the scan range from m/z 908 to “1000 + LC run time”, for example m/z 908 to 1100 for a 100 min LC-MS experiment. This step is not required but recommended.
+3. Add a second Full MS – SIM scan as in Step 2,  but now set the scan range from m/z 908 to “1000 + LC run time”, for example m/z 908 to 1100 for a 100 min LC-MS experiment. This step is required! If you forget it your instrument can switch to mode in which MaxQuant.Live won't start anymore. In this case the instrument has to be restarted.
 4. Review all settings and save the method.
 
 Data acquisition
