@@ -3,7 +3,7 @@ Installation
 
 Check requirements
 ------------------
-* Microsoft .NET Framework 4.6.2 
+* Microsoft .NET Framework 4.7.2 
 * Q-Exactive Tune 2.9 
 * No IAPI licence is required 
 * Thermo Fisher Q-Exactive Mass Spectrometer HF/HF-X
