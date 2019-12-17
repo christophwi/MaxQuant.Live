@@ -3,7 +3,7 @@ Create and edit Scan Protocols
 
 New scan protocol
 """"""""""""""""""
-.. figure:: figures/image015.png
+.. figure:: figures/AppStore.png
     :width: 250px
     :align: left
 

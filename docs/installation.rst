@@ -15,7 +15,7 @@ Download and unpack
 The latest version 0.99 can be downloaded from http://maxquant.live and is valid until 1/1/2019.
 Unpack the zip file in a new folder on the local hard drive of the acquisition computer.
 
-.. figure:: figures/image003.png
+.. figure:: figures/UnzippedFolder.png
     :width: 150px
     :align: center
     

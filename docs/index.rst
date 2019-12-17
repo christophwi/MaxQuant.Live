@@ -1,7 +1,7 @@
 MaxQuant.Live: Documentation
 =======================================
 
-.. figure:: figures/image001.png
+.. figure:: figures/MqLiveIcon_LogoMaxQuant.png
    :width: 100px
    :align: left
    
