@@ -5,16 +5,18 @@ The main window of MaxQuant.Live consists of three sections, which you can open 
 Instrument 
 ----------
 
-.. figure:: figures/image008.jpg
+.. figure:: figures/MqLiveIcon_QExactive.png
     :align: left
+
 The instrument type can be selected here connected using the “connect instrument” button. 
 In this ver-sion, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometers are supported (Tune Version 2.9).
 
 Main Module
 -----------
 
-.. figure:: figures/image010.jpg
+.. figure:: figures/MqLiveIcon_LogoMaxQuant.png
     :align: left
+
 This part of the software is the link between the instrument and the scan protocol Library. 
 It consists of a log message window and the configuration of the log directory. 
 It is recommended to always load the log directory before connecting the instrument.
@@ -26,11 +28,12 @@ Specific log files: During the execution of a scan protocol, the log messages ar
 Scan Protocol Library  
 ---------------------
 
-.. figure:: figures/image014.jpg
+.. figure:: figures/MqLiveIcon_ScanProtocols.png
     :align: left 
-.. figure:: figures/image011.png
+.. figure:: figures/ScanprotocolLibrary.png
     :width: 250px
-    :align: right    
+    :align: right
+
 Scan protocols implement various the acquisition strategies supported by our software. Every scan proto-col has a certain type (BoxCar, EasiTag…), a unique four-digit identification number and a short experiment description. All scan protocols are stored in a library. 
 In the scan protocol section of the software you can manage the library. 
  

@@ -7,6 +7,7 @@ Check requirements
 * Q-Exactive Tune 2.9 
 * No IAPI licence is required 
 * Thermo Fisher Q-Exactive Mass Spectrometer HF/HF-X
+
 .. note:: Q Exactive classic/plus instruments were not tested and are not officially supported. 
 
 Download and unpack 

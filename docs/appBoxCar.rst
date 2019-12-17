@@ -1,5 +1,5 @@
 BoxCar
-=====
+======
 
 .. figure:: figures/image029.png
     :width: 200px
@@ -100,6 +100,9 @@ MaxQuant is a software package for quantitative high resolution mass-spectrometr
     :align: center
     
 5. Set global parameters:
+
  * Add the corresponding FASTA file(s) for the species under investigation.  
  * To transfer MS/MS identifications between runs, check “Match between runs” in the “Adv. identification” tab. It is recommended to adjust matching time tolerances according to your chromatography setup. 
+
 6. Start the automated processing workflow. MaxQuant output files will be written in the ‘combined\txt\’ folder when finished.
+

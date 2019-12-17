@@ -14,7 +14,7 @@ First, the list of targeting peptides has to be populated and afterward the targ
 to be defined and the parameters have to be set. 
 
 Steps to setup a targeting run
------------------
+------------------------------
 
 1. Populate the peptide list 
 2. Set up targeting action
@@ -119,7 +119,7 @@ TargetLabeled
 This action adds the SILAC label masses to the peptides masses in the list. The “Modified is used to calculate the number Arg and Lys amino acids. The masses of SILAC labels can be freely defined here.
 
 SIM (Selected Ion Monitoring)
-""""
+""""""""""""""""""""""""""""""
 
 +-------------------+----------------------------------------------------------------------------------------------+---------------+
 | Parameter         | Description                                                                                  | Default value |
