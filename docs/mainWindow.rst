@@ -12,6 +12,7 @@ Instrument
 The instrument type can be selected here connected using the “connect instrument” button.
 In this version, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometers are supported (Tune Version 2.9).
 
+|
 
 Main Module
 -----------
