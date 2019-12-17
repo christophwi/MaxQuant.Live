@@ -39,7 +39,7 @@ The pop-up window allows you to set all instrument parameters required for BoxCa
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | MzRange                     | Scan range (m/z)                                                                                   |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| **BoxCar settings**         |                                                                                                    |                                                                                                    |
+| **BoxCar settings**         |                                                                                                    |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | BoxCar Scans                | Number of BoxCar scans per acquisition cycle                                                       |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
@@ -67,11 +67,11 @@ The pop-up window allows you to set all instrument parameters required for BoxCa
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | Normalized collision energy | Normalized collision energy (NCE)                                                                  |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| DynamicExclusion            | Dynamic exclusion time of precursors after first spectrum (s)                                      |
+| DynamicExclusion            | Switch for dynamic exclusion                                                                       |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| Exclusion mass tolerance    | Mass tolerance for dynamic exclusion (ppm)                                                         |
+| Precursor exclusion duration| Dynamic exclusion time of precursors after first spectrum (s)                                      |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| Exclusion threshold         | Intensity threshold for dynamic exclusion                                                          |
+| Exclusion threshold         | Intensity threshold for dynamic exclusion [ppm]                                                    |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | Isolation window            | Width of the precursor isolation window (Th)                                                       |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
@@ -91,6 +91,9 @@ The pop-up window allows you to set all instrument parameters required for BoxCa
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | AgcTarget                   | AGC target value (charges)                                                                         |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
+| LowerMzBound                | Lower Mz boundary for MS2 spectra                                                                  |
++-----------------------------+----------------------------------------------------------------------------------------------------+
+
 
 Optimization of ion distribution
 --------------------------------
