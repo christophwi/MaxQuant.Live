@@ -7,7 +7,7 @@ There are three operation modes:
 Setup Mode 
 ----------
 
-.. figure:: figures/image019.png
+.. figure:: figures/SetupMode.png
     :width: 250px
     :align: right
 
@@ -18,8 +18,8 @@ MaxQuant.Live switches to the Listening Mode.
 Listening Mode 
 --------------
 
-.. figure:: figures/image021.png
-    :width: 250px
+.. figure:: figures/MqLiveIcon_LogoListening.png
+    :width: 100px
     :align: right
 
 In this mode, the software receives all the spectra acquired by the instrument but does not send any commands 
@@ -30,8 +30,8 @@ MaxQuant.Live switches to the Running Mode.
 Running Mode
 ------------
 
-.. figure:: figures/image023.png
-    :width: 250px
+.. figure:: figures/MqLiveIcon_LogoRunning.png
+    :width: 100px
     :align: right
 
 This operation mode is active during the execution of a scan protocol.
