@@ -1,7 +1,7 @@
 Targeting
 =========
 
-.. figure:: figures/image036.png
+.. figure:: figures/TargetingApp.png
     :width: 200px
     :align: left   
     
