@@ -25,12 +25,6 @@ The pop-up window allows you to set all instrument parameters required for BoxCa
 +=============================+====================================================================================================+
 | **General**                 |                                                                                                    |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| BoxCar Scans                | Number of BoxCar scans per acquisition cycle                                                       |
-+-----------------------------+----------------------------------------------------------------------------------------------------+
-| BoxCar Boxes                | Number of boxes per BoxCar scan                                                                    |
-+-----------------------------+----------------------------------------------------------------------------------------------------+
-| BoxCar overlap              | M/z overlap of neighboring boxes (Th)                                                              |
-+-----------------------------+----------------------------------------------------------------------------------------------------+
 | ScanDataAsProfile           | Profile (true) or centroid (false) spectra                                                         |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | Positive mode               | Electrospray polarity                                                                              |
@@ -45,15 +39,27 @@ The pop-up window allows you to set all instrument parameters required for BoxCa
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | MzRange                     | Scan range (m/z)                                                                                   |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| **BoxCar scan settings**    |                                                                                                    |
+| **BoxCar settings**         |                                                                                                    |                                                                                                    |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| MaxITBoxCar                 | Maximum total ion injection time (ms) for BoxCar scans. Each box is assigned 1/N th of this value. |
+| BoxCar Scans                | Number of BoxCar scans per acquisition cycle                                                       |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| ResolutionBoxCar            | MS resolving power at m/z 200                                                                      |
+| BoxCar Boxes                | Number of boxes per BoxCar scan                                                                    |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| AgcTargetBoxCar             | Total AGC target value for each BoxCar scan (charges). Each box is assigned 1/N th of this value.  |
+| BoxCar overlap              | M/z overlap of neighboring boxes (Th)                                                              |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
-| MzRangeBoxCar               | Scan range (m/z)                                                                                   |
+| PdfMu                       | Mu value of log-normal ion distribution function                                                   |
++-----------------------------+----------------------------------------------------------------------------------------------------+
+| PdfSigma                    | Mu value of log-normal ion distribution function                                                   |
++-----------------------------+----------------------------------------------------------------------------------------------------+
+| MaxBoxRatio                 | Max. allowed ratio of box sizes. Box sizes are adjusted automatically to fulfill this constraint.  |
++-----------------------------+----------------------------------------------------------------------------------------------------+
+| MaxIT                       | Maximum total ion injection time (ms) for BoxCar scans. Each box is assigned 1/N th of this value. |
++-----------------------------+----------------------------------------------------------------------------------------------------+
+| Resolution                  | MS resolving power at m/z 200                                                                      |
++-----------------------------+----------------------------------------------------------------------------------------------------+
+| AgcTarget                   | Total AGC target value for each BoxCar scan (charges). Each box is assigned 1/N th of this value.  |
++-----------------------------+----------------------------------------------------------------------------------------------------+
+| MzRange                     | Scan range (m/z)                                                                                   |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | **Fragmentation**           |                                                                                                    |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
@@ -85,6 +91,17 @@ The pop-up window allows you to set all instrument parameters required for BoxCa
 +-----------------------------+----------------------------------------------------------------------------------------------------+
 | AgcTarget                   | AGC target value (charges)                                                                         |
 +-----------------------------+----------------------------------------------------------------------------------------------------+
+
+Optimization of ion distribution
+--------------------------------
+
+The box sizes are calculated from the expected ion distribution which is described by
+a log-normal distribution function.
+The shape of the function is defined by the two parameters mu and sigma.
+Their default values were derived from HeLa LC-MS runs and lead to box sizes
+comparable to the ones in the BoxCar publication.
+If another ion distribution is expected, these parameters should be changed to guarantee an optimal
+description through the log-normal function and the perfectly suitable box sizes.
 
 Analysis
 --------
