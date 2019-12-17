@@ -2,10 +2,15 @@ User Interface
 ============================
 The main window of MaxQuant.Live consists of three sections, which you can open by clicking on the symbols in the main menu.
 
+.. image:: figures/SetupMode.png
+    :width: 300px
+    :align: center
+
+
 Instrument 
 ----------
 
-.. figure:: figures/MqLiveIcon_QExactive.png
+.. image:: figures/MqLiveIcon_QExactive.png
     :width: 100px
     :align: left
 
@@ -17,7 +22,7 @@ In this version, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometer
 Main Module
 -----------
 
-.. figure:: figures/MqLiveIcon_LogoMaxQuant.png
+.. image:: figures/MqLiveIcon_LogoMaxQuant.png
     :width: 100px
     :align: left
 

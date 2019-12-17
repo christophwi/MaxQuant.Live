@@ -10,9 +10,7 @@ This is the user documentation of MaxQuant.Live, a software framework for real-t
 Publication:
    **MaxQuant.Live enables global targeting of more than 25,000 peptides**
    *Christoph Wichmann, Florian Meier, Sebastian Virreira Winter, Andreas-David Brunner, Juergen Cox, Matthias Mann*
-   `doi: 1101/443838 <https://www.biorxiv.org/content/early/2018/10/15/443838>`_
-
-.. note:: This user documentation is not fully complete yet and is frequently updated. 
+   `doi: 10.1074/mcp.TIR118.001131 <https://www.mcponline.org/content/18/5/982>`_
 
 .. toctree::
    :maxdepth: 2
