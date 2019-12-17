@@ -7,7 +7,7 @@ There are three operation modes:
 Setup Mode 
 ----------
 
-.. figure:: figures/SetupMode.png
+.. image:: figures/SetupMode.png
     :width: 250px
     :align: right
 
@@ -18,7 +18,7 @@ MaxQuant.Live switches to the Listening Mode.
 Listening Mode 
 --------------
 
-.. figure:: figures/MqLiveIcon_LogoListening.png
+.. image:: figures/MqLiveIcon_LogoListening.png
     :width: 100px
     :align: right
 
@@ -30,7 +30,7 @@ MaxQuant.Live switches to the Running Mode.
 Running Mode
 ------------
 
-.. figure:: figures/MqLiveIcon_LogoRunning.png
+.. image:: figures/MqLiveIcon_LogoRunning.png
     :width: 100px
     :align: right
 

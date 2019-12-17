@@ -6,7 +6,6 @@ The main window of MaxQuant.Live consists of three sections, which you can open 
     :width: 300px
     :align: center
 
-
 Instrument 
 ----------
 
@@ -16,8 +15,6 @@ Instrument
 
 The instrument type can be selected here connected using the “connect instrument” button.
 In this version, only Thermo Fisher Scientific Q Exactive HF-X mass spectrometers are supported (Tune Version 2.9).
-
-|
 
 Main Module
 -----------
@@ -37,10 +34,10 @@ Specific log files: During the execution of a scan protocol, the log messages ar
 Scan Protocol Library
 ---------------------
 
-.. figure:: figures/MqLiveIcon_ScanProtocols.png
+.. image:: figures/MqLiveIcon_ScanProtocols.png
     :width: 100px
     :align: left
-.. figure:: figures/ScanprotocolLibrary.png
+.. image:: figures/ScanprotocolLibrary.png
     :width: 250px
     :align: right
 
