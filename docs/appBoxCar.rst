@@ -1,7 +1,7 @@
 BoxCar
 ======
 
-.. figure:: figures/image029.png
+.. image:: figures/image029.png
     :width: 200px
     :align: left
 
@@ -115,7 +115,7 @@ MaxQuant is a software package for quantitative high resolution mass-spectrometr
 3. Set parameter groups for each raw file. BoxCar and shotgun experiments need to be in separate parameter groups. Fractions (if applicable) should not be specified when matching from a fractionated peptide library into single runs is intended.
 4. Set group specific parameters. Select “Type / Standard” for each experiment group containing regular shotgun experiments and “Type / BoxCar” for each group containing BoxCar experiments, respectively. 
 
-.. figure:: figures/image038.png
+.. image:: figures/image038.png
     :width: 100%
     :align: center
     

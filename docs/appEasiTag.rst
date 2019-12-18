@@ -1,7 +1,7 @@
 Easitag and TopN
 =================
 
-.. figure:: figures/image031.png
+.. image:: figures/image031.png
     :width: 200px
     :align: left   
     

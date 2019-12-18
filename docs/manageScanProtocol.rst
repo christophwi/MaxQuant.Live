@@ -3,7 +3,7 @@ Create and edit Scan Protocols
 
 New scan protocol
 """"""""""""""""""
-.. figure:: figures/AppStore.png
+.. image:: figures/AppStore.png
     :width: 250px
     :align: left
 
@@ -15,7 +15,7 @@ The scan protocol will be saved as file in the scan protocol folder and appear i
 
 Edit scan protocols
 """"""""""""""""""""
-.. figure:: figures/image017.png
+.. image:: figures/image017.png
     :width: 250px
     :align: right
 

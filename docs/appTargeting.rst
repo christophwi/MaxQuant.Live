@@ -1,7 +1,7 @@
 Targeting
 =========
 
-.. figure:: figures/TargetingApp.png
+.. image:: figures/TargetingApp.png
     :width: 200px
     :align: left   
     
@@ -20,8 +20,8 @@ Steps to setup a targeting run
 2. Set global parameters
 3. Set up targeting action
 
-Peptide ion list
-----------------
+Peptide ions list
+-----------------
 The targeting should comprise a set of peptides of interest and a set of high abundant peptides used for the 
 real-time corrections of mass-to-charge values, expected retention times and peptide intensities. 
 
