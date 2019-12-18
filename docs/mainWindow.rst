@@ -44,4 +44,4 @@ In the scan protocol section of the software you can manage the library.
  
 .. image:: figures/ScanprotocolLibrary.png
     :width: 250px
-    :align: right
+    :align: center

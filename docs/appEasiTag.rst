@@ -42,7 +42,7 @@ Furthermore, the isolation windows are shifted by a global offset and their size
 +-----------------------------------+---------------------------------------------------------------------+
 | UseChargeSpecificIsolationWindows | Switch to enable charge specific isolation windows                  |
 +-----------------------------------+---------------------------------------------------------------------+
-| IsolationWindowList               | Define isolation windows widths for every allowed charge state      |
+| ChargeSpecificIsolationWindows    | Define isolation windows widths for every allowed charge state      |
 +-----------------------------------+---------------------------------------------------------------------+
 | ScanDataAsProfile                 | Profile (true) or centroid (false) spectra                          |
 +-----------------------------------+---------------------------------------------------------------------+
