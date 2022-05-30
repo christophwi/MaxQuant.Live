@@ -5,7 +5,7 @@ MaxQuant.Live: Documentation
    :width: 100px
    :align: left
    
-This is the user documentation of MaxQuant.Live, a software framework for real-time monitoring of mass spectrometric data and controlling of the data acquisition. MaxQuant.Live can be downloaded on `http://maxquant.live <http://maxquant.live>`_ 
+Welcome to the user documentation of MaxQuant.Live, a software framework for real-time monitoring of mass spectrometric data and controlling of the data acquisition. MaxQuant.Live can be downloaded on `http://maxquant.live <http://maxquant.live>`_ 
 
 Publication:
    **MaxQuant.Live enables global targeting of more than 25,000 peptides**
